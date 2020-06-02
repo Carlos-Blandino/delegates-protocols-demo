@@ -14,6 +14,7 @@
 		078691972484BBA700D5D63F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 078691962484BBA700D5D63F /* Assets.xcassets */; };
 		0786919A2484BBA700D5D63F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 078691982484BBA700D5D63F /* LaunchScreen.storyboard */; };
 		07E19E4A2485E37C0086CD1C /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07E19E492485E37C0086CD1C /* SecondViewController.swift */; };
+		07E19E4C2485F15A0086CD1C /* ColorSelectionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07E19E4B2485F15A0086CD1C /* ColorSelectionDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		078691992484BBA700D5D63F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0786919B2484BBA700D5D63F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		07E19E492485E37C0086CD1C /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		07E19E4B2485F15A0086CD1C /* ColorSelectionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorSelectionDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				078691982484BBA700D5D63F /* LaunchScreen.storyboard */,
 				0786919B2484BBA700D5D63F /* Info.plist */,
 				07E19E492485E37C0086CD1C /* SecondViewController.swift */,
+				07E19E4B2485F15A0086CD1C /* ColorSelectionDelegate.swift */,
 			);
 			path = "Delegates-Protocols-Demo";
 			sourceTree = "<group>";
@@ -142,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				07E19E4A2485E37C0086CD1C /* SecondViewController.swift in Sources */,
+				07E19E4C2485F15A0086CD1C /* ColorSelectionDelegate.swift in Sources */,
 				078691922484BBA400D5D63F /* ViewController.swift in Sources */,
 				0786918E2484BBA400D5D63F /* AppDelegate.swift in Sources */,
 				078691902484BBA400D5D63F /* SceneDelegate.swift in Sources */,

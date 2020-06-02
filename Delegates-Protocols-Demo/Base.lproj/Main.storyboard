@@ -23,15 +23,15 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XtS-W5-qCb">
-                                <rect key="frame" x="150" y="472" width="114" height="30"/>
+                                <rect key="frame" x="134" y="472" width="130" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.1070740582" green="0.63730736300000002" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal" title="Choose">
+                                <state key="normal" title="Choose a Color">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
                                     <action selector="greenButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gRs-qe-oSj"/>
-                                    <segue destination="ckU-ED-mUC" kind="show" id="Q7s-es-3No"/>
+                                    <segue destination="ckU-ED-mUC" kind="show" identifier="secondChoiceSegue" id="Q7s-es-3No"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -46,7 +46,7 @@
         <!--Second View Controller-->
         <scene sceneID="NCw-g2-jv3">
             <objects>
-                <viewController id="ckU-ED-mUC" customClass="SecondViewController" customModule="Delegates_Protocols_Demo" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="secondVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="ckU-ED-mUC" customClass="SecondViewController" customModule="Delegates_Protocols_Demo" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="YaH-e9-MQ5">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

@@ -8,8 +8,10 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController{
+    
 
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -17,8 +19,18 @@ class ViewController: UIViewController {
     }
 
     @IBAction func greenButtonTapped(_ sender: UIButton) {
-        
     
+        let colorSelectionVC = storyboard?.instantiateViewController(identifier: "secondVC") as! SecondViewController
+        colorSelectionVC.colorSelectionDelegate = self
+        present(colorSelectionVC, animated: true, completion: nil)
+
    }
 
+}
+extension ViewController: ColorSelectionDelegate {
+    func didTapColorChoice(color: UIColor) {
+        view.backgroundColor = color 
+    }
+    
+    
 }
